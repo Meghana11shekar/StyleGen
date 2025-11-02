@@ -1,0 +1,28 @@
+# --- Secrets ---
+.env
+
+# --- Python cache ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+
+# --- IDE / Editor files ---
+.vscode/
+.idea/
+
+# --- System files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+
+# --- Temporary files ---
+*.tmp
+*.bak
