@@ -1,2 +1,7 @@
 supabase
 python-dotenv
+torch
+torchvision
+Pillow
+transformers
+open_clip_torch

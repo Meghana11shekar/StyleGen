@@ -9,3 +9,11 @@ Personal AI Stylist using CLIP + Supabase + Streamlit
 
 ### Tech Stack
 Python, Supabase, Streamlit, CLIP, OpenAI API
+
+### ✅ Day 1 — CLIP Model Setup 
+
+- Installed `open_clip_torch` for zero-dependency CLIP usage.
+- Tested image vs. text similarity with outfit images.
+- Confirmed working inference and label detection.
+- Next up → Day 2: Streamlit upload UI + Supabase wardrobe storage.
+
