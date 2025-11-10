@@ -17,3 +17,19 @@ Python, Supabase, Streamlit, CLIP, OpenAI API
 - Confirmed working inference and label detection.
 - Next up → Day 2: Streamlit upload UI + Supabase wardrobe storage.
 
+✅ Day 2 — Streamlit Upload UI + Auto Tagging + Supabase Storage  
+Built interactive Streamlit interface for users to upload clothing images.  
+Integrated color detection (`utils/color_detect.py`) to extract dominant color.  
+Used CLIP to auto-tag each item by style, color, and clothing category.  
+Stored metadata and embeddings in Supabase (`items` table).  
+Next up → Day 3: UI revamp + AI Wardrobe Dashboard.
+
+
+✅ Day 3 — Improved CLIP Prompts + Wardrobe Dashboard UI  
+Enhanced prompt list for precise tagging (denim, hoodie, streetwear, etc.).  
+Redesigned Streamlit UI with soft theme and responsive layout.  
+Added wardrobe grid dashboard that fetches and displays uploaded items from Supabase.  
+Improved color detection + removed deprecated warnings.  
+Next up → Day 4: AI Outfit Recommendation Engine (using embeddings + style rules).
+
+
