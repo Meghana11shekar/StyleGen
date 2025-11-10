@@ -32,4 +32,12 @@ Added wardrobe grid dashboard that fetches and displays uploaded items from Supa
 Improved color detection + removed deprecated warnings.  
 Next up → Day 4: AI Outfit Recommendation Engine (using embeddings + style rules).
 
+✅ Day 4 — AI Outfit Recommendation Engine  
+Extracted and stored CLIP embeddings in Supabase.  
+Implemented cosine similarity–based outfit matching system.  
+Fixed embedding errors and improved fashion prompts for better accuracy.  
+Added recommendation UI where users can select an item and get matching outfit suggestions.  
+
+
+
 
