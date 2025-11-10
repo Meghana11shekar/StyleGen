@@ -1,7 +1,10 @@
+streamlit
 supabase
 python-dotenv
+numpy
+Pillow
 torch
 torchvision
-Pillow
 transformers
 open_clip_torch
+
