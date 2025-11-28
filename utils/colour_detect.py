@@ -3,10 +3,15 @@ import numpy as np
 
 def detect_dominant_color(image_path):
     image = Image.open(image_path)
-    image = image.resize((50, 50))
-    pixels = np.array(image).reshape(-1, 3)
-    avg_color = np.mean(pixels, axis=0)
-    r, g, b = map(int, avg_color)
+
+    img = image.convert("RGB")      # convert 4 channel to 3
+    pixels = np.array(img).reshape(-1, 3)
+
+    avg = np.mean(pixels, axis=0)
+    r, g, b = avg
+
+    return f"rgb({int(r)}, {int(g)}, {int(b)})"
+
     
     if r > 200 and g < 100 and b < 100:
         return "red"

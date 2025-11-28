@@ -38,6 +38,16 @@ Implemented cosine similarity–based outfit matching system.
 Fixed embedding errors and improved fashion prompts for better accuracy.  
 Added recommendation UI where users can select an item and get matching outfit suggestions.  
 
+### ✅ Day 5 — FashionCLIP + Stable Embeddings
+
+- Integrated FashionCLIP model for more accurate outfit detection
+- Fixed color detection and Supabase storage working
+- Embeddings are now saved for recommendation engine
+- Wardrobe correctly loads uploaded items
+- App detects styles like crop top, hoodie, denim, dress, etc
+
+Next → Day 6: Multi-page UI + better pastel theme + full outfit suggestion
+
 
 
 
